@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faugie</title>
+    <!-- Noto Serif and Inter Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-[#F5F8FF] font-inter">
+    <div class="container mx-auto">
+      <!-- header -->
+      <header class="pt-5 mb-16 lg:mb-32">
+        <!-- Navbar -->
+        <nav class="flex items-center justify-between px-2">
+          <img src="./assets/logo.png" alt="Logo" class="h-9 lg:h-20" />
+          <ul class="flex items-center gap-9">
+            <li class="font-semibold hidden lg:block cursor-pointer">Home</li>
+            <li class="hidden lg:block text-gray-500 cursor-pointer">Shop</li>
+            <li class="hidden lg:block text-gray-500 cursor-pointer">
+              About us
+            </li>
+            <li>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>Cart ($56)</span>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Banner -->
+        <div
+          class="w-full flex lg:flex-row-reverse items-end flex-col gap-7 lg:gap-3 mt-7 lg:mt-32"
+        >
+          <div class="w-full lg:w-1/2">
+            <img
+              src="./assets/hero-flower.png"
+              alt="Flower banner"
+              class="w-full object-cover"
+            />
+          </div>
+          <div class="w-full lg:w-1/2 px-2 lg:px-0 space-y-3">
+            <h2
+              class="text-orange-600 font-bold text-2xl lg:text-6xl leading-tight"
+            >
+              <span class="text-black">Always</span> Fresh<br />Flowers
+            </h2>
+            <p class="text-gray-500 text-base lg:text-xl">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh flowers that are perfect for any occasion.
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <!-- Our Plants section -->
+      <section class="px-1">
+        <!-- Section heading -->
+        <div class="text-center mb-7 lg:mb-9">
+          <h2 class="font-bold text-2xl lg:text-5xl text-orange-500">
+            Our <span class="text-black">Plants</span>
+          </h2>
+          <p class="text-sm lg:text-xl text-gray-500 mt-4 w-4/5 mx-auto">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh.
+          </p>
+        </div>
+
+        <!-- Section details -->
+        <div class="grid grid-cols-2 lg:grid-cols-4 w-full gap-5">
+          <!-- Card -->
+          <div class="w-full">
+            <!-- card image -->
+            <div class="w-full">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="sample flower image"
+                class="w-full object-cover"
+              />
+            </div>
+
+            <!-- card details -->
+            <div class="w-full mt-7">
+              <div class="text-base lg:text-xl text-black text-center">
+                <p>Lilly Blossom</p>
+                <p class="font-bold">20 USD</p>
+              </div>
+              <button
+                class="mt-7 w-full bg-orange-500 py-4 text-white cursor-pointer"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="w-full">
+            <!-- card image -->
+            <div class="w-full">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="sample flower image"
+                class="w-full object-cover"
+              />
+            </div>
+
+            <!-- card details -->
+            <div class="w-full mt-7">
+              <div class="text-base lg:text-xl text-black text-center">
+                <p>Lilly Blossom</p>
+                <p class="font-bold">20 USD</p>
+              </div>
+              <button
+                class="mt-7 w-full bg-orange-500 py-4 text-white cursor-pointer"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="w-full">
+            <!-- card image -->
+            <div class="w-full">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="sample flower image"
+                class="w-full object-cover"
+              />
+            </div>
+
+            <!-- card details -->
+            <div class="w-full mt-7">
+              <div class="text-base lg:text-xl text-black text-center">
+                <p>Lilly Blossom</p>
+                <p class="font-bold">20 USD</p>
+              </div>
+              <button
+                class="mt-7 w-full bg-orange-500 py-4 text-white cursor-pointer"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="w-full">
+            <!-- card image -->
+            <div class="w-full">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="sample flower image"
+                class="w-full object-cover"
+              />
+            </div>
+
+            <!-- card details -->
+            <div class="w-full mt-7">
+              <div class="text-base lg:text-xl text-black text-center">
+                <p>Lilly Blossom</p>
+                <p class="font-bold">20 USD</p>
+              </div>
+              <button
+                class="mt-7 w-full bg-orange-500 py-4 text-white cursor-pointer"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="w-full">
+            <!-- card image -->
+            <div class="w-full">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="sample flower image"
+                class="w-full object-cover"
+              />
+            </div>
+
+            <!-- card details -->
+            <div class="w-full mt-7">
+              <div class="text-base lg:text-xl text-black text-center">
+                <p>Lilly Blossom</p>
+                <p class="font-bold">20 USD</p>
+              </div>
+              <button
+                class="mt-7 w-full bg-orange-500 py-4 text-white cursor-pointer"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="w-full">
+            <!-- card image -->
+            <div class="w-full">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="sample flower image"
+                class="w-full object-cover"
+              />
+            </div>
+
+            <!-- card details -->
+            <div class="w-full mt-7">
+              <div class="text-base lg:text-xl text-black text-center">
+                <p>Lilly Blossom</p>
+                <p class="font-bold">20 USD</p>
+              </div>
+              <button
+                class="mt-7 w-full bg-orange-500 py-4 text-white cursor-pointer"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="w-full">
+            <!-- card image -->
+            <div class="w-full">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="sample flower image"
+                class="w-full object-cover"
+              />
+            </div>
+
+            <!-- card details -->
+            <div class="w-full mt-7">
+              <div class="text-base lg:text-xl text-black text-center">
+                <p>Lilly Blossom</p>
+                <p class="font-bold">20 USD</p>
+              </div>
+              <button
+                class="mt-7 w-full bg-orange-500 py-4 text-white cursor-pointer"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+          <div class="w-full">
+            <!-- card image -->
+            <div class="w-full">
+              <img
+                src="./assets/sample-flower-image.png"
+                alt="sample flower image"
+                class="w-full object-cover"
+              />
+            </div>
+
+            <!-- card details -->
+            <div class="w-full mt-7">
+              <div class="text-base lg:text-xl text-black text-center">
+                <p>Lilly Blossom</p>
+                <p class="font-bold">20 USD</p>
+              </div>
+              <button
+                class="mt-7 w-full bg-orange-500 py-4 text-white cursor-pointer"
+              >
+                ADD TO CART
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer
+      class="container mx-auto grid grid-cols-1 lg:grid-cols-4 w-full py-12 text-gray-500 gap-5 lg:gap-0 px-3 lg:px-1"
+    >
+      <!-- Footer LOGO -->
+      <div class="ml-3">
+        <img src="./assets/logo.png" alt="Logo" class="lg:w-32 w-44 mb-4" />
+        <p class="text-base lg:text-xl text-gray">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop.
+        </p>
+      </div>
+
+      <!-- Home to contact us -->
+      <ul
+        class="flex items-start flex-col justify-between lg:pl-10 gap-4 lg:gap-0"
+      >
+        <li class="cursor-pointer">Home</li>
+        <li class="cursor-pointer">About us</li>
+        <li class="cursor-pointer">Blog</li>
+        <li class="cursor-pointer">FAQ</li>
+        <li class="cursor-pointer">Contact Us</li>
+      </ul>
+
+      <!-- Features to help center -->
+      <ul class="flex items-start flex-col justify-between gap-4 lg:gap-0">
+        <li class="cursor-pointer">Feature</li>
+        <li class="cursor-pointer">Pricing</li>
+        <li class="cursor-pointer">Privacy Policy</li>
+        <li class="cursor-pointer">Terms of Service</li>
+        <li class="cursor-pointer">Help Center</li>
+      </ul>
+
+      <!-- Social media logo -->
+      <div class="flex items-start gap-6 lg:gap-2">
+        <img src="./assets/icon-linkedin.png" alt="Linkedin" />
+        <img src="./assets/icon-twitter.png" alt="Twitter" class="pt-2" />
+        <img src="./assets/icon-facebook.png" alt="Facebook" />
+        <img src="./assets/icon-youtube.png" alt="Youtube" />
+      </div>
+    </footer>
+  </body>
+</html>
